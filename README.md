@@ -147,8 +147,9 @@ Evaluated the model using accuracy and loss metrics:
 - **Loss**: 0.0020
 
 Generated a classification report and confusion matrix:
+
+- **Classification Report:**
 ```plaintext
-Classification Report:
               precision    recall  f1-score   support
 
            0       1.00      1.00      1.00     33312
@@ -157,18 +158,19 @@ Classification Report:
     accuracy                           1.00     77813
    macro avg       1.00      1.00      1.00     77813
 weighted avg       1.00      1.00      1.00     77813
+```
 
-Confusion Matrix:
+- **Confusion Matrix:**
+```plaintext
 [[33265    47]
  [    0 44501]]
-
 ```
 
  ## How to Run
 1. Clone the repository:
     ```bash
-    git clone https://github.com/riitk/ipl_score_predictions.git
-    cd ipl_score_predictions
+    git clone https://github.com/riitk/phishing_url_detector.git
+    cd phishing_url_detector
     ```
 
 ## Acknowledgements
